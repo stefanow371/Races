@@ -1,0 +1,43 @@
+-- POCO -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+POCO (Plain Old CLR Object) refers to simple objects that represent models or entities in an application, often used for database operations.
+They are regular objects without any special functionality or frameworks.
+
+-- HOW TO FIND CONNECTION STRING? --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Connection strings can be found in SQL Server Object Explorer by right-clicking on a database, selecting Properties, and locating the connection string row.
+Connection strings contain information necessary to establish a connection with a database.
+
+-- WHAT ARE CONTROLLERS? --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Controllers in web applications are responsible for managing the endpoints and actions available on a web page.
+They handle user requests, process data, and interact with other components to generate appropriate responses.
+
+-- WHAT IS DETAIL PAGE? --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A Detail Page refers to a page nested within another page, often displaying more specific information related to the main content.
+
+-- IEnumerable and IActionResult --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IEnumerable is an interface that allows iteration over a sequence of elements, while IActionResult represents the result of an action in web applications.
+IEnumerable is used for working with collections, while IActionResult provides control over the behavior and results of a web application.
+
+-- Entity Framework--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Entity Framework is an ORM (Object-Relational Mapping) framework that enables developers to work with databases using object-oriented paradigms.
+It uses migrations to manage database schema changes and seeds to provide initial data.
+
+-- Dependency Injection--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dependency Injection (DI) is a design pattern that promotes loose coupling and modular development by allowing higher-level modules to depend on abstractions instead of specific implementations.
+It is achieved by defining interfaces, implementing them in concrete classes, and injecting dependencies into classes through constructors, methods, or properties.
+
+-- Repository Pattern--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The Repository Pattern is a design pattern that adds an abstraction layer between the data layer and the business layer to improve separation of concerns.
+It involves creating an interface defining methods for data operations and implementing it in repository classes.
+
+-- Services--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Services in the context of software development refer to components or classes that encapsulate specific business logic and provide functionality to other parts of the application.
+They are focused on handling complex business operations and are often used in conjunction with repositories.
